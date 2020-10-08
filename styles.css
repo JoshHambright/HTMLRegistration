@@ -1,0 +1,59 @@
+body {
+    background-color: #64B7FF;
+
+}
+
+.nav{
+    float: top;
+    font-family: sans-serif;
+    margin: 10px;
+    text-align: right;
+    background-color: white;
+    border-color: white;
+    height: 3rem;
+    padding: 1rem;
+
+}
+
+.navLink
+{
+    background-color: cornflowerblue;
+    margin: auto 1rem auto 1rem;    
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    position: relative;
+    top: 1rem;
+        
+}
+
+.content{
+    background-color: #64B7FF;
+    height:90%;
+
+}
+
+.whitebox{
+    background-color: white;
+    width: 40%;
+    border-radius: 5px;
+  }
+}
+
+.singupForm{
+
+}
+
+.socialLinks{
+
+
+}
+
+.formItem{
+    margin: 5px;
+}
+
+.titleText{
+    font-family: sans-serif;
+    font-weight: bold;
+}
