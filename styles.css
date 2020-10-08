@@ -1,14 +1,13 @@
 body {
-    background-color: #64B7FF;
-
+    background-color: white;
 }
 
-.center{
+.center {
     position: relative;
     margin: auto;
 }
 
-.nav{
+.nav {
     float: top;
     font-family: sans-serif;
     margin: 10px;
@@ -17,54 +16,82 @@ body {
     border-color: white;
     height: 3rem;
     padding: 1rem;
-
+    margin-top: 0;
+    top: -1px;
 }
 
-.navLink
-{
+.navLink {
     background-color: cornflowerblue;
-    margin: auto 1rem auto 1rem;    
+    margin: auto 1rem auto 1rem;
     text-decoration: none;
     padding: 1rem;
     color: white;
     position: relative;
     top: 1rem;
-        
+    border: 1px solid transparent;
+    width: 100%;
 }
 
-.content{
+.formWrapper {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.content {
     background-color: #64B7FF;
-    height:90%;
-
+    height: 99vh;
+    line-height: 4rem;
 }
 
-.whitebox{
+.whitebox {
     background-color: white;
-    width: 40%;
+    width: 20rem;
     border-radius: 5px;
     padding: 1rem;
-  }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
-
-.singupForm{
-
-}
-
-.socialLinks{
-
 
 }
 
-.formItem{
-    margin: 5px;
+.singupForm {}
+
+.socialLinks {
+    width;90%;
+    margin: auto;
+    position: relative;
+    display: block;
 }
 
-.titleText{
+.formItem {
+    padding: 1rem;
+    border: 1 solid transparent;
+    border-radius: 4px;
+    margin: 3rem, auto, 1rem, auto;
+}
+
+.titleText {
     font-family: sans-serif;
     font-weight: bold;
 }
 
-.badge{
-    height: 3rem;
-    width: 3rem;
+.badge {
+    height: 2rem;
+    width: 2rem;
+}
+
+.submit {
+    background-color: cornflowerblue;
+    color: white;
+    border: 0;
+    padding: 1rem;
+}
+
+form{
+    width: 100%;
 }
