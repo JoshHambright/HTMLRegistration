@@ -10,26 +10,29 @@ body {
 .nav {
     float: top;
     font-family: sans-serif;
-    margin: 10px;
+   /* margin: 10px;*/
     text-align: right;
     background-color: white;
     border-color: white;
     height: 3rem;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0 ;
     margin-top: 0;
     top: -1px;
+    right: 4rem;
+    width: 100%;
 }
 
 .navLink {
-    background-color: cornflowerblue;
+    background-color: #0080FF;
     margin: auto 1rem auto 1rem;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
     color: white;
     position: relative;
     top: 1rem;
     border: 1px solid transparent;
     width: 100%;
+    border-radius: 4px;
 }
 
 .formWrapper {
@@ -41,7 +44,7 @@ body {
 
 .content {
     background-color: #64B7FF;
-    height: 99vh;
+    height: 85vh;
     line-height: 4rem;
 }
 
@@ -70,9 +73,10 @@ body {
 
 .formItem {
     padding: 1rem;
-    border: 1 solid transparent;
+    border: 1px solid grey;
     border-radius: 4px;
     margin: 2rem, auto, 1rem, auto;
+    width: 85%;
 }
 
 .titleText {
@@ -86,14 +90,16 @@ body {
 }
 
 .submit {
-    background-color: cornflowerblue;
+    background-color: #0080FF;
     color: white;
     border: 0;
+    border-radius: 4px;
     padding: 1rem;
     margin: auto;
     position: relative;
+    width: 100%;
 }
 
 form{
-    width: 100%;
+    margin: auto;
 }
